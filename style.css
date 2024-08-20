@@ -7,17 +7,101 @@
   --Grayish_Blue: hsl(229, 6%, 66%);
   --Very_Light_Gray: hsl(0, 0%, 98%);
   --ff_ExtraLight: 200;
-  --ff_Regular: 200;
-  --ff_SemiBold: 200;
+  --ff_Regular: 400;
+  --ff_SemiBold: 600;
+  font-size: 15px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--Grayish_Blue);
 }
 
 body {
   font-family: "Poppins", sans-serif;
   font-weight: var(--ff_Regular);
+  background: var(--Very_Light_Gray);
+}
+
+.container {
+  width: 320px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+main,
+.grup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  font-weight: var(--ff_ExtraLight);
+  color: var(--Grayish_Blue);
+}
+
+h2,
+h3 {
+  font-weight: var(--ff_SemiBold);
+  color: var(--Very_Dark_Blue);
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-weight: var(--ff_Regular);
+  color: var(--Grayish_Blue);
+  font-size: 0.8rem;
+}
+
+article {
+  box-shadow: 0 0 5px var(--Very_Light_Gray), 0 0 10px var(--Grayish_Blue),
+    0 0 15px var(--Very_Dark_Blue);
+  padding: 2rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+article p {
+  font-size: 0.7rem;
+}
+
+img {
+  width: 3rem;
+}
+
+.color_cyan {
+  border-top: 3px solid var(--Cyan);
+}
+
+.color_red {
+  border-top: 3px solid var(--Red);
+}
+
+.color_orange {
+  border-top: 3px solid var(--Orange);
+}
+
+.color_blue {
+  border-top: 3px solid var(--Blue);
 }
