@@ -37,13 +37,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
-}
-
-.container {
-  width: 320px;
-  padding: 2.5rem;
-  display: flex;
-  flex-direction: column;
   gap: 4rem;
 }
 
@@ -100,10 +93,6 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rem;
-  border-radius: 0.3rem;
-  display: flex;
-  flex-direction: column;
   gap: 0.7rem;
 }
 
