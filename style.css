@@ -23,7 +23,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: var(--ff_Regular);
   background: var(--Very_Light_Gray);
-<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +37,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
-=======
 }
 
 .container {
@@ -46,7 +44,6 @@ body {
   padding: 2.5rem;
   display: flex;
   flex-direction: column;
->>>>>>> ce437b65680ebda80eb8190ce3a5c541990d3518
   gap: 4rem;
 }
 
@@ -54,11 +51,8 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-<<<<<<< HEAD
   max-width: 28rem;
   align-items: center;
-=======
->>>>>>> ce437b65680ebda80eb8190ce3a5c541990d3518
 }
 
 main,
@@ -66,10 +60,7 @@ main,
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
-<<<<<<< HEAD
   align-items: center;
-=======
->>>>>>> ce437b65680ebda80eb8190ce3a5c541990d3518
 }
 
 h1 {
@@ -96,16 +87,12 @@ p {
   font-weight: var(--ff_Regular);
   color: var(--Grayish_Blue);
   font-size: 0.8rem;
-<<<<<<< HEAD
   text-align: center;
-=======
->>>>>>> ce437b65680ebda80eb8190ce3a5c541990d3518
 }
 
 article {
   box-shadow: 0 0 5px var(--Very_Light_Gray), 0 0 10px var(--Grayish_Blue),
     0 0 15px var(--Very_Dark_Blue);
-<<<<<<< HEAD
   padding: 1.5rem;
   width: 250px;
   height: 180px;
@@ -113,18 +100,15 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-=======
   padding: 2rem;
   border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
->>>>>>> ce437b65680ebda80eb8190ce3a5c541990d3518
   gap: 0.7rem;
 }
 
 article p {
   font-size: 0.7rem;
-<<<<<<< HEAD
   text-align: left;
 }
 
@@ -137,8 +121,6 @@ article p {
 figure {
   display: flex;
   justify-content: end;
-=======
->>>>>>> ce437b65680ebda80eb8190ce3a5c541990d3518
 }
 
 img {
@@ -159,13 +141,10 @@ img {
 
 .color_blue {
   border-top: 3px solid var(--Blue);
-<<<<<<< HEAD
 }
 
 @media (min-width: 51rem) {
   main {
     flex-direction: row;
   }
-=======
->>>>>>> ce437b65680ebda80eb8190ce3a5c541990d3518
 }
